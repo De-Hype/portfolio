@@ -86,27 +86,27 @@ const Header = () => {
           </Link>
         </section>
         <nav className="flex flex-col w-3/4 self-center gap-4 ">
-          <Scroll to="about" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500">
+          <Scroll to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500">
             About <FaArrowRight/>
           </Scroll>
 
-          <Scroll to="experience" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500 ">
+          <Scroll to="experience" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500 ">
             Experience <FaArrowRight/>
           </Scroll>
 
-          <Scroll to="skills" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500">
+          <Scroll to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500">
             Skills <FaArrowRight/>
           </Scroll>
 
-          <Scroll to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
+          <Scroll to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
             Projects <FaArrowRight/>
           </Scroll>
 
-          <Scroll to="writings" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
+          <Scroll to="writings" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
             Writings <FaArrowRight/>
           </Scroll>
 
-          <Scroll to="contacts" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
+          <Scroll to="contacts" spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
             Contacts <FaArrowRight/>
           </Scroll>
         </nav>
