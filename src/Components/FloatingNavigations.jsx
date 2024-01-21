@@ -1,4 +1,4 @@
-import useSmoothScroll from "@/lib/SectionRef";
+
 import { Link as Scroll } from "react-scroll";
 const FloatingNavigations = () => {
   const handleClick = () => {

@@ -11,7 +11,7 @@ import {
 } from "react-icons/io";
 import { FaArrowRight, FaMedium } from "react-icons/fa6";
 import me from "@/assets/me.jpg";
-import useSmoothScroll from "@/lib/SectionRef";
+
 const Header = () => {
   const handleClick = () => {
     console.log("Handle click made");
