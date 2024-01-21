@@ -1,13 +1,18 @@
 import { FaStar } from "react-icons/fa";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export const Experience = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
   return (
     <main className="pt-3 experience" id="experience">
       <h3 className=" text-lg font-semibold pb-6 flex items-center gap-3">
         <FaStar /> Experience
       </h3>
       <section className="flex flex-col gap-6">
-        <aside className="flex flex-col gap-1">
+        <aside className="flex flex-col gap-1" data-aos="fade-up">
           <h4 className="font-bold text-slate-900">Frontend Developer</h4>
           <h3 className="font-extrabold">DalensAI</h3>
           <h5 className="font-semibold text-slate-500">2023 - Present</h5>
@@ -25,7 +30,7 @@ export const Experience = () => {
             frontend development.
           </p>
         </aside>
-        <aside className="flex flex-col gap-1">
+        <aside className="flex flex-col gap-1" data-aos="fade-up">
           <h4 className="font-bold text-slate-900">Technical Writer</h4>
           <h3 className="font-extrabold">SmileDevs Community</h3>
           <h5 className="font-semibold text-slate-500">2023 - 2023</h5>
@@ -35,7 +40,7 @@ export const Experience = () => {
             growth and enhancing the understanding of new members.
           </p>
         </aside>
-        <aside className="flex flex-col gap-1">
+        <aside className="flex flex-col gap-1" data-aos="fade-up">
           <h4 className="font-bold text-slate-900">SEO Content Writer</h4>
           <h3 className="font-extrabold">Naijaventure</h3>
           <h5 className="font-semibold text-slate-500">2021 - 2023</h5>

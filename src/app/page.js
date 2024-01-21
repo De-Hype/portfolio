@@ -19,7 +19,6 @@ import "aos/dist/aos.css";
 export default function Home() {
   useEffect(() => {
     AOS.init({ duration: 3000 });
-    return () => {};
   }, []);
 
   return (
@@ -56,9 +55,8 @@ export default function Home() {
           <section data-aos="fade-up">
             <Contact />
           </section>
-          <section data-aos="fade-up">
-            <Footer />
-          </section>
+
+          <Footer />
         </section>
       </section>
     </main>

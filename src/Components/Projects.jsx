@@ -7,15 +7,21 @@ import picture from "@/assets/picture.jpg";
 import flixcart from "@/assets/flixcart.jpg";
 import migibio from "@/assets/migibio.jpg";
 import edcircle from "@/assets/edcircle.jpg";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
   return (
-    <section className="pt-3 projects" id="projects">
+    <section className="pt-3 projects" id="projects" >
       <h3 className=" text-lg flex items-center gap-3 font-semibold pb-2">
         <FaStar />
         Projects
       </h3>
       <section className="grid grid-cols-2 pad:grid-cols-1 gap-4">
-        <aside className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
+        <aside data-aos="fade-up" className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
           <Image
             className="h-1/2 w-full  self-center border-black "
             src={flixcart}
@@ -80,7 +86,7 @@ const Projects = () => {
           </section>
         </aside>
 
-        <aside className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
+        <aside data-aos="fade-up" className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
           <Image
             className="h-1/2 w-full  self-center border-black "
             src={picture}
@@ -155,7 +161,7 @@ const Projects = () => {
           </section>
         </aside>
 
-        <aside className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
+        <aside data-aos="fade-up" className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
           <Image
             className="h-1/2 w-full  self-center border-black "
             src={picture}
@@ -223,7 +229,7 @@ const Projects = () => {
           </section>
         </aside>
 
-        <aside className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
+        <aside data-aos="fade-up" className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
           <Image
             className="h-1/2 w-full  self-center border-black "
             src={picture}
@@ -292,7 +298,7 @@ const Projects = () => {
           </section>
         </aside>
 
-        <aside className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
+        <aside data-aos="fade-up" className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
           <Image
             className="h-1/2 w-full  self-center border-black "
             src={migibio}
@@ -360,7 +366,7 @@ const Projects = () => {
           </section>
         </aside>
 
-        <aside className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
+        <aside data-aos="fade-up" className="min-h-[250px] flex flex-col w-full p-3 border cursor-pointer gap-2">
           <Image
             className="h-1/2 w-full  self-center border-black "
             src={edcircle}
@@ -386,7 +392,6 @@ const Projects = () => {
               >
                 TailwindCSS
               </button>
-             
             </section>
             <section className="flex items-center justify-between w-full gap-2 ">
               <Link
