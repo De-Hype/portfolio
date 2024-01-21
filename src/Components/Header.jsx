@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {Link as Scroll} from 'react-scroll';
+import { Link as Scroll } from "react-scroll";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import { FaToggleOff, FaToggleOn } from "react-icons/fa6";
@@ -8,17 +8,14 @@ import {
   IoLogoGithub,
   IoLogoLinkedin,
   IoMdDocument,
-
 } from "react-icons/io";
-import {FaArrowRight, FaMedium} from "react-icons/fa6";
+import { FaArrowRight, FaMedium } from "react-icons/fa6";
 import me from "@/assets/me.jpg";
 import useSmoothScroll from "@/lib/SectionRef";
 const Header = () => {
-   
-   
-   const handleClick =()=>{
-   console.log('Handle click made')
-   }
+  const handleClick = () => {
+    console.log("Handle click made");
+  };
 
   return (
     <>
@@ -52,14 +49,15 @@ const Header = () => {
                 autoStart: true,
                 loop: true,
                 cursor: "|",
-                wrapperClassName: "self-center text-lg laptop:text-sm font-bold  mb-2",
+                wrapperClassName:
+                  "self-center text-lg laptop:text-sm font-bold  mb-2",
               }}
             />
           </h3>
 
           <p className="text-center text-sm laptop:text-xs">
-          I&apos;m a passionate software developer, dedicated to create beautiful
-            and scalable experiences with Javascript/Typescript.
+            I&apos;m a passionate software developer, dedicated to create
+            beautiful and scalable experiences with Javascript/Typescript.
           </p>
         </section>
         <Link
@@ -81,33 +79,80 @@ const Header = () => {
           <Link href="/" className="">
             <IoLogoWhatsapp className="text-2xl" />
           </Link>
-          <Link href="/" className="">
+          <Link href="https://medium.com/@" className="">
             <FaMedium className="text-2xl" />
           </Link>
         </section>
         <nav className="flex flex-col w-3/4 self-center gap-4 ">
-          <Scroll to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500">
-            About <FaArrowRight/>
+          <Scroll
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleClick}
+            className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500"
+          >
+            About <FaArrowRight />
           </Scroll>
 
-          <Scroll to="experience" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500 ">
-            Experience <FaArrowRight/>
+          <Scroll
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleClick}
+            className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500"
+          >
+            Skills <FaArrowRight />
+          </Scroll>
+          <Scroll
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleClick}
+            className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500 "
+          >
+            Experience <FaArrowRight />
           </Scroll>
 
-          <Scroll to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4  hover:text-slate-500">
-            Skills <FaArrowRight/>
+          <Scroll
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleClick}
+            className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500"
+          >
+            Projects <FaArrowRight />
           </Scroll>
 
-          <Scroll to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
-            Projects <FaArrowRight/>
+          <Scroll
+            to="writings"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleClick}
+            className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500"
+          >
+            Writings <FaArrowRight />
           </Scroll>
 
-          <Scroll to="writings" spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
-            Writings <FaArrowRight/>
-          </Scroll>
-
-          <Scroll to="contacts" spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick} className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500">
-            Contacts <FaArrowRight/>
+          <Scroll
+            to="contacts"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            onClick={handleClick}
+            className="text-left flex items-center gap-3 text-sm cursor-pointer transition-all hover:translate-x-4 hover:text-slate-500"
+          >
+            Contacts <FaArrowRight />
           </Scroll>
         </nav>
       </header>
