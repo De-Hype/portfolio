@@ -19,18 +19,6 @@ const FloatingNavigations = () => {
       </Scroll>
 
       <Scroll
-        to="experience"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={500}
-        onClick={handleClick}
-        className=" text-xs cursor-pointer transition-all  hover:text-slate-500 "
-      >
-        Experience
-      </Scroll>
-
-      <Scroll
         to="skills"
         spy={true}
         smooth={true}
@@ -40,6 +28,17 @@ const FloatingNavigations = () => {
         className=" text-xs cursor-pointer transition-all   hover:text-slate-500"
       >
         Skills
+      </Scroll>
+      <Scroll
+        to="experience"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+        onClick={handleClick}
+        className=" text-xs cursor-pointer transition-all  hover:text-slate-500 "
+      >
+        Experience
       </Scroll>
 
       <Scroll
