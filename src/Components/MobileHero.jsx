@@ -75,7 +75,7 @@ const MobileHero = () => {
           <Link href="/" className="">
             <IoLogoWhatsapp className="text-2xl" />
           </Link>
-          <Link href="/" className="">
+          <Link href="https://medium.com/@David_hype" className="">
             <FaMedium className="text-2xl" />
           </Link>
         </section>
