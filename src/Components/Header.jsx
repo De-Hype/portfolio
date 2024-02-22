@@ -61,7 +61,7 @@ const Header = () => {
           </p>
         </section>
         <Link
-          href="/"
+          href="https://docs.google.com/document/d/1TpQ3uJRmHLEIC9P34YRd_FBQtgWvGA6qkiJ0YGmTj_k/edit?usp=drivesdk"
           className="bg-black  text-white flex items-center gap-2 self-center px-4 rounded-md py-2"
         >
           <span className="text-xs">View CV</span>
