@@ -97,7 +97,7 @@ const Projects = () => {
             <p className="font-extralight text-xs">
               A real estate marketplace where only registered users can list any
               real estate property they want, and make it available to other
-              customers.{" "}
+              customers.
             </p>
 
             <section className="flex w-full flex-wrap gap-2 mb-auto">
@@ -171,7 +171,7 @@ const Projects = () => {
             <p className="font-bold text-">Centauri Blog</p>
             <p className="font-extralight text-xs">
               A content management system where users can read blog post made by
-              others, and are to register before being able to create theirs.
+              others, if and only if they are registered and can also create their own content.
             </p>
 
             <section className="flex w-full flex-wrap gap-2 mb-auto">
