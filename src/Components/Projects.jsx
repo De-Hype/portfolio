@@ -168,7 +168,7 @@ const Projects = () => {
             alt="An image of David Hype"
           />
           <section className="h-full w-full flex flex-col gap-2">
-            <p className="font-bold text-">Bogo Blog</p>
+            <p className="font-bold text-">Centauri Blog</p>
             <p className="font-extralight text-xs">
               A content management system where users can read blog post made by
               others, and are to register before being able to create theirs.
@@ -221,7 +221,7 @@ const Projects = () => {
               </Link>
               <Link
                 className="border-black border py-1 px-3 bg-black text-white rounded"
-                href="/"
+                href="https://centauri-sooty.vercel.app/"
               >
                 <IoEyeSharp />
               </Link>
