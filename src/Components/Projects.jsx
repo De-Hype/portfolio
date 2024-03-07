@@ -236,7 +236,7 @@ const Projects = () => {
             alt="An image of David Hype"
           />
           <section className="h-full w-full flex flex-col gap-2">
-            <p className="font-bold text-">Zenchat</p>
+            <p className="font-bold text-">Siblychat</p>
             <p className="font-extralight text-xs">
               A chat application that uses the websocket protocol. Users can
               create and log in accounts. And can also message other users of
@@ -248,7 +248,7 @@ const Projects = () => {
                 type="button"
                 className="hover:bg-black hover:text-white border-black border outline-none bg-white  text-xs text-nowrap rounded-sm px-2 py-1"
               >
-                Next.js
+                React.js
               </button>
               <button
                 type="button"
@@ -260,7 +260,7 @@ const Projects = () => {
                 type="button"
                 className="hover:bg-black hover:text-white border-black border outline-none bg-white  text-xs text-nowrap rounded-sm px-2 py-1"
               >
-                Next-auth
+                Node.js
               </button>
               <button
                 type="button"
