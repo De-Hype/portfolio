@@ -290,7 +290,7 @@ const Projects = () => {
               </Link>
               <Link
                 className="border-black border py-1 px-3 bg-black text-white rounded"
-                href="/"
+                href="https://sibly-app.vercel.app"
               >
                 <IoEyeSharp />
               </Link>
